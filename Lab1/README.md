@@ -1,3 +1,5 @@
+# Lab 1: Introduction to VHDL Programming and Open-Source Simulation Environment
+
 ##  Objective
 
 - To install and configure a VHDL development setup using VS Code, GHDL, and GTKWave.  
