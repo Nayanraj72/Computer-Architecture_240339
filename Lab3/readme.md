@@ -136,13 +136,13 @@ The waveforms were generated and verified in GTKWave to confirm proper operation
 
 The GTKWave simulation of the 4-to-2 priority encoder shows:
 
-![alt text](encoder.png)
+![alt text](../encoder.png)
 
 ### Decoder Simulation Output
 
 The GTKWave simulation of the 2-to-4 decoder shows:
 
-![alt text](decoder.png)
+![alt text](../decoder.png)
 
 
 ## Discussion and Conclusion
