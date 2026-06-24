@@ -1,12 +1,6 @@
 # Lab 4: VHDL Code for Combinational Circuits (MUX and DEMUX)
 
-## Course Information
 
-* **Course:** Computer Architecture (CMP 262)
-* **Program:** Bachelor of Computer Engineering
-* **Semester:** Fourth Semester
-* **College:** Cosmos College of Management and Technology
-* **Department:** Information and Communication Technology
 
 ---
 
@@ -14,7 +8,6 @@
 
 * To design and simulate a 4-to-1 Multiplexer (MUX) in VHDL.
 * To design and simulate a 1-to-4 Demultiplexer (DEMUX) in VHDL.
-* To understand the working principle of combinational circuits.
 * To verify the circuit operation using GHDL and GTKWave.
 
 ---
@@ -79,13 +72,6 @@ A **1-to-4 DEMUX** contains:
 | 1  | 1  | Y3 = D        |
 
 ---
-
-# Libraries Used
-
-```vhdl id="7szd1f"
-library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
-```
 
 ## Description
 
@@ -371,31 +357,11 @@ gtkwave demux.vcd
 ## MUX Waveform
 
 ![MUX Waveform](mux.png)
-
-### Result
-
-The waveform confirms that the selected input is correctly transferred to the output according to the select lines.
-
 ---
 
 ## DEMUX Waveform
 
 ![DEMUX Waveform](demux.png)
-
-### Result
-
-The waveform confirms that the input signal is correctly routed to the selected output line.
-
----
-
-# Tools Used
-
-| Tool        | Purpose                                |
-| ----------- | -------------------------------------- |
-| **VS Code** | Writing and editing VHDL code          |
-| **GHDL**    | Compiling and simulating VHDL programs |
-| **GTKWave** | Viewing waveform output                |
-
 ---
 
 # Conclusion
