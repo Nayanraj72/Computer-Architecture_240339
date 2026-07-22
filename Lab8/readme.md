@@ -1,14 +1,6 @@
 # Lab 8: VHDL Code for Sequential Circuits (Counters)
 
-## Course Information
 
-* **Course:** Computer Architecture (CMP 262)
-* **Program:** Bachelor of Computer Engineering
-* **Semester:** Fourth Semester
-* **College:** Cosmos College of Management and Technology
-* **Department:** Information and Communication Technology
-
----
 
 # Objective
 
@@ -77,13 +69,6 @@ A synchronous **active-high reset (RST)** resets the counter to **0000** on the 
 
 ---
 
-# Libraries Used
-
-```vhdl
-library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
-use IEEE.NUMERIC_STD.ALL;
-```
 
 ## Description
 
@@ -313,15 +298,6 @@ The waveform verifies that:
 
 ---
 
-# Tools Used
-
-| Tool | Purpose |
-|------|---------|
-| **VS Code** | Writing and editing VHDL code |
-| **GHDL** | Compiling and simulating VHDL programs |
-| **GTKWave** | Viewing waveform output |
-
----
 
 # Conclusion
 
